@@ -2,7 +2,8 @@
   "version": 2,
   "rewrites": [
     { "source": "/", "destination": "/public/index.html" }
-  ],
+  ]
+}
   "functions": {
     "api/**/*.js": {
       "runtime": "nodejs18.x"
